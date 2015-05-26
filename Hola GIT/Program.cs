@@ -1,15 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 
-namespace Hola_GIT
+// Hola GIT. 
+using System;
+namespace HelloWorld
 {
-    class Program
+    class Hello 
     {
-        static void Main(string[] args)
+        static void Main() 
         {
+            Console.WriteLine("Hola GIT!");
+
+            // Mantiene la consola abierta
+            Console.WriteLine("Pulsar cualquier tecla para salir.");
+            Console.ReadKey();
         }
     }
 }
